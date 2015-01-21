@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'vkontakte_wall_stats'
+
+result = VkontakteWallStats.stats(domain: '4ezus')
+print VkontakteWallStats.serialize_result(result)
